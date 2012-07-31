@@ -19,6 +19,7 @@ class DSIHeader( dpkt.Packet ):
         ('reserved', 'I', 0),
     )
 
+
 def toHex(s):
     lst = []
     for ch in s:
